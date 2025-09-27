@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Julie's Cake's</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #f78ca0, #f9748f, #fd868c, #fe9a8b);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom-left-radius: 50% 10%;
+      border-bottom-right-radius: 50% 10%;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      background: white;
+      color: #f74f63;
+      padding: 0.7rem 1.2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    nav a:hover {
+      background: #f74f63;
+      color: white;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+     .services li:hover {
+background: #f74f63;
+padding: 1.2rem;
+       color: white ;
+       transition: 0.5s ease;
+     }
+    .services ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .services li {
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      margin: auto;
+      width: 90%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      transition: 0.5s ease;
+    }
+    
+     .gallery img:hover {
+width:100%;
+       
+     }
+    
+    .banner {
+      margin-top: 5%;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    
+    .cta {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .cta a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    .cta a.order {
+      background: #ff6f61;
+      color: white;
+    }
+    .cta a.order:hover {
+      background: #ff3d3d;
+    }
+    .cta a.call {
+      background: #fff;
+      border: 2px solid #ff6f61;
+      color: #ff6f61;
+    }
+    .cta a.call:hover {
+      background: #ff6f61;
+      color: white;
+    }
+    
+    .alert-btn {
+      background: #fff;
+      border: 2px solid #ff6f61;
+      color: #ff6f61;
+      padding: 10px;
+      font-weight: bolder;
+      border-radius: 10px;
+    }
+    .alert-btn:hover {
+      background: #ff6f61;
+      color: white;
+    }
+    
+    footer {
+      background: #f74f63;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Julie's Cake's</h1>
+    <p>Delicious cakes, snacks & catering services in Lagos</p>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  
+  
+  <img class="banner" src="32732134fee2f05905366757ca0bd46c.png" alt="Snacks sample">
+  
+  <section class="section services" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Event Planning</li>
+      <li>Cakes & Pastries</li>
+      <li>Snacks & Small Chops</li>
+      <li>Event Decorations & Set-up</li>
+      <li>Indoor & Outdoor Catering</li>
+      <li>Other Catering Services</li>
+    </ul>
+  </section>  <section class="section gallery" id="gallery">
+    <h2>Gallery</h2>
+    <img src="7eb951b814fe8fd701621ed6fb75555b.jpg" alt="Cake sample">
+    
+    <img src="gigapixel-7e8a6be96c18ae97067331b68d4128ca.png" alt="Cake sample">
+    <img src="fdbf8110c920377950da99e1d1bd6f8e.jpg" alt="Snacks sample">
+    <img src="7dcc7d723448105106fc1dbf38b5deb4.jpg" alt="Catering sample">
+    <img src="aaf0933b749b6f5e45f87e2a53c7c30b.jpg" alt="Caterer">
+  </section>  <section class="cta" id="contact">
+    <a href="https://wa.me/c/2349073862303" target="_blank" class="order">Order Now</a>
+    <a href="tel:+2349073862303" class="call">Call Now</a>
+    <a href="https://maps.app.goo.gl/SkJM3qoJsDNJsJxN8" target="_blank" class="call">Find Us</a>
+  </section>  <footer>
+    <p>Owned by Julianah Hunge | Email: julianahhunge38@gmail.com</p>
+    <button class="alert-btn" onclick="alert('We are currently open!')">Open Now</button>
+  </footer>
+</body>
+</html>
